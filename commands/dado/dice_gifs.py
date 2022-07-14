@@ -1,5 +1,4 @@
-dice_gifs = {
-    'critical': [
+critical_success=[
         'https://tenor.com/view/dice-wind-mill-dice-dancer-dancing-cool-dice-chris-timmons-gif-13865860',
         'https://tenor.com/view/dungeons-and-dragons-paradise-pd-dnd-20sided-dice-roll-gif-16420028',
         'https://tenor.com/view/criticalrole-critrole-sam-riegal-mario-bros-jump-gif-20492886',
@@ -10,8 +9,9 @@ dice_gifs = {
         'https://tenor.com/view/funny-dogs-me-so-happy-smile-dog-gif-13164685',
         'https://tenor.com/view/baby-yoda-baby-yoda-dancing-baby-yoda-dance-dance-dance-moves-gif-22982736',
         'https://tenor.com/view/crab-rave-dancing-dancing-crab-gif-16543314'
-    ],
-    'critical_error':[
+    ]
+
+critical_error=[
         'https://tenor.com/view/dog-cachorro-tenso-tense-suspicious-gif-23205154',
         'https://tenor.com/view/crying-black-guy-meme50fps-interpolated-interpolated-crying-black-guy-crying-crying-black-guy-gif-23747218',
         'https://tenor.com/view/ok-crying-sad-emotional-sentimental-gif-20646670',
@@ -22,4 +22,3 @@ dice_gifs = {
         'https://tenor.com/view/meh-reaction-nope-hjrpg-rpg-gif-13900469',
         'https://tenor.com/view/office-gif-23066448'
     ]
-}
