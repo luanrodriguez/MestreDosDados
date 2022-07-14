@@ -8,7 +8,8 @@ dice_gifs = {
         'https://tenor.com/view/celebrate-happy-excited-weekend-vibe-gif-5292331',
         'https://tenor.com/view/happy-happy-dance-seinfeld-yeah-cheering-gif-13573922',
         'https://tenor.com/view/funny-dogs-me-so-happy-smile-dog-gif-13164685',
-        'https://tenor.com/view/baby-yoda-baby-yoda-dancing-baby-yoda-dance-dance-dance-moves-gif-22982736'
+        'https://tenor.com/view/baby-yoda-baby-yoda-dancing-baby-yoda-dance-dance-dance-moves-gif-22982736',
+        'https://tenor.com/view/crab-rave-dancing-dancing-crab-gif-16543314'
     ],
     'critical_error':[
         'https://tenor.com/view/dog-cachorro-tenso-tense-suspicious-gif-23205154',
@@ -18,6 +19,7 @@ dice_gifs = {
         'https://tenor.com/view/sad-cat-sunakook-tired-exhausted-gif-24687868',
         'https://tenor.com/view/lenakos-dog-gif-23957794',
         'https://tenor.com/view/sad-cry-cat-kitty-tears-gif-24106422',
-        'https://tenor.com/view/meh-reaction-nope-hjrpg-rpg-gif-13900469'
+        'https://tenor.com/view/meh-reaction-nope-hjrpg-rpg-gif-13900469',
+        'https://tenor.com/view/office-gif-23066448'
     ]
 }

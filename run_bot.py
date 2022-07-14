@@ -1,6 +1,5 @@
 import os
 import discord
-from time import sleep
 from discord.ext import commands
 
 from commands.dado.main import roll_dice
@@ -18,6 +17,6 @@ async def dado(channel, sides = None):
 async def comandos(channel):
     for key in bot.all_commands.keys():
         if key != 'help' and key!= 'comandos':
-            await channel.send(key)
+            await channel.send(f'!{key}')
 
-bot.run(os.getenv('token'))
+bot.run('OTk2Nzg1NTY1NDczMTk4MDgw.GUj5vu.EsPOMUkNCaq7HbmurqCr14UE-uafC2aq5C1B9k')
