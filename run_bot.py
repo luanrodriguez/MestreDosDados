@@ -19,4 +19,4 @@ async def comandos(channel):
         if key != 'help' and key!= 'comandos':
             await channel.send(f'!{key}')
 
-bot.run('OTk2Nzg1NTY1NDczMTk4MDgw.GUj5vu.EsPOMUkNCaq7HbmurqCr14UE-uafC2aq5C1B9k')
+bot.run(os.getenv('BOT_TOKEN'))
