@@ -68,3 +68,5 @@ number_emotes = {
 }
 
 critical_error_number = '<:numeroum:997494043464445972>'
+
+dice_gif = '<a:dice:997154628355510334>'
