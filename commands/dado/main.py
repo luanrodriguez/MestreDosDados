@@ -1,6 +1,6 @@
 from random import randint, choice
-from .dice_gifs import critical_success, critical_error
 from .number_into_emote import turn_into_emote, turn_into_special_emote
+from .emotes_and_gifs_settings import critical_success_gifs, critical_error_gifs, critical_error_number
 
 def dice_handler(message = None):
     try:
@@ -11,10 +11,10 @@ def dice_handler(message = None):
             rolled_number = roll_dice(sides)
             if(rolled_number == sides):
                 response.append(turn_into_special_emote(rolled_number))
-                response.append(choice(critical_success))
+                response.append(choice(critical_success_gifs))
             elif(rolled_number == 1):
-                response.append('<:blobum:997205585256796260>')
-                response.append(choice(critical_error))
+                response.append(critical_error_number)
+                response.append(choice(critical_error_gifs))
             else:
                 response.append(turn_into_emote(rolled_number))
             

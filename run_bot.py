@@ -2,6 +2,8 @@ import os
 import discord
 from discord.ext import commands
 
+from commands.dado.emotes_and_gifs_settings import critical_success_gifs, critical_error_gifs
+
 from commands.dado.main import dice_handler
 
 intents = discord.Intents.default()
