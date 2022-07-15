@@ -10,7 +10,7 @@ intents.messages = True
 bot = commands.Bot(command_prefix='!',intents = intents)
 
 @bot.command()
-async def dado(channel, sides = None):  
+async def dado(channel, sides = None): 
     responses = dice_handler(sides)
     responses[0] = f'{channel.author.display_name}: {responses[0]} <a:dice:997154628355510334>'
     for response in responses:
@@ -21,9 +21,5 @@ async def comandos(channel):
     for key in bot.all_commands.keys():
         if key != 'help' and key!= 'comandos':
             await channel.send(f'!{key}')
-
-@bot.command()
-async def emojis(channel):
-    await channel.send(bot.emojis)
 
 bot.run(os.getenv('BOT_TOKEN'))
