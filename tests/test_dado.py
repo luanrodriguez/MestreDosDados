@@ -11,6 +11,14 @@ def test_if_roll_dice_returns_between_1_and_choice():
     rolled_number = roll_dice(choice)
     assert(rolled_number >= 1 and rolled_number <= choice)
 
+def test_if_turn_into_emote_works():
+    assert(turn_into_emote(20) == '<:doisfade:997198114421231716><:zerofade:997198636242968596>')
+    assert(turn_into_emote(1) == '<:umfade:997198116304461874>')
+    assert(turn_into_emote(8) == '<:oitofade:997198638893781134>')
+    assert(turn_into_emote(136) == '<:umfade:997198116304461874><:tresfade:997198646779072593><:seisfade:997198642953846784>')
+    assert(turn_into_emote(45) == '<:quatrofade:997198644400902236><:cincofade:997198641263558707>')
+    assert(turn_into_emote(97) == '<:novefade:997198637681619034><:setefade:997198640261124197>')
+
 def test_if_turn_into_special_emote_works():
     assert(turn_into_special_emote(20) == '<a:doisbonito:997148113951273062><a:zerobonito:997148111816380558>')
     assert(turn_into_special_emote(1) == '<a:umbonito:997148137338712084>')
