@@ -37,7 +37,7 @@ Com o bot em execução e adicionado em um servidor, basta digitar !dado (numero
 
 ![image](https://user-images.githubusercontent.com/83316964/179639464-ab575e8c-3c56-4c8f-bae5-b36e05a5369a.png)
 
-No entanto, os emotes utilizados por padrão no bot estão presentes somente no servidor do exemplo acima. Para alterar os emotes que serão utilizados, basta entrar no código do bot, ir em na pasta "commands/dados" e alterar as variaveis presentes no arquivo "emotes_and_gifs_settings.py".
+No entanto, os emotes utilizados por padrão no bot estão presentes somente no servidor do exemplo acima. Para alterar os emotes que serão utilizados, basta entrar no código do bot, ir na pasta "commands/dados" e alterar as variaveis presentes no arquivo "emotes_and_gifs_settings.py". A URL a seguir conta com explicações sobre o funcionamento de emotes personalizados no Discord: https://gist.github.com/scragly/b8d20aece2d058c8c601b44a689a47a0.
 
 ![image](https://user-images.githubusercontent.com/83316964/179639874-28efd523-9d3f-4c05-9878-e6b248378a75.png)
 
