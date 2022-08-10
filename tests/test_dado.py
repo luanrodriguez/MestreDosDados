@@ -3,8 +3,8 @@ currentdir = os.path.dirname(os.path.realpath(__file__))
 parentdir = os.path.dirname(currentdir)
 sys.path.append(parentdir)
 
-from commands.dado.main import roll_dice, dice_handler
-from commands.dado.number_into_emote import turn_into_emote, turn_into_special_emote
+from commands.dado.Dado import Dado
+from commands.dado.utils.number_into_emote import turn_into_emote, turn_into_special_emote
 
 def test_if_roll_dice_returns_between_1_and_choice():
     choice = 20
