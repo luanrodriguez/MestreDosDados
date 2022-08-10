@@ -15,5 +15,7 @@ async def dado(context, sides):
     dado = Dado(context, sides)
     response_message = dado.roll()
     await context.send(response_message)
+    if(dado.gif):
+        await context.send(dado.gif)
 
 bot.run(os.getenv('BOT_TOKEN'))
